@@ -1,0 +1,51 @@
+.welcome-container {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aligncenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-input {
+    display: block;
+    outline: none;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.start-button {
+    width: 100%;
+    display: block;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.custom-link {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+.error-content {
+    display: block;
+    color: red;
+    font-size: 10px;
+}
+
+.start-button:disabled{
+    background-color: grey;
+}

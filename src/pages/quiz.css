@@ -1,0 +1,12 @@
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.timer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+

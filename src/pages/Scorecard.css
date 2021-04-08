@@ -1,0 +1,27 @@
+.loading {
+    max-width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.score {
+    display: block;
+}  
+
+.button-div1 {
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+.home-button {
+    background-color: rgb(84, 38, 209);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 16px ;
+    font-size: 1rem;
+}
